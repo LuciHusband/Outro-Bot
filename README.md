@@ -19,7 +19,7 @@ This bot requires the following python packages:
 Make sure to install these packages before running the bot by running `pip install -r requirements.txt`
 ## Note
 
-Additionally, in order for the bot to join and speak in voice channels, you will need to enable Privileged Gateway Intents for your bot in the Discord Developer Portal.
+Additionally, in order for the bot to join and speak in voice channels, you will need to enable Privileged Gateway Intents for your bot in the Discord Developer Portal, [here is a guide](https://discordpy.readthedocs.io/en/stable/intents.html#privileged-intents).
 ## Troubleshooting
 
 If the bot is not working as expected, make sure that the file "outro.mp3" is located in the same directory as the bot script. Also, check that the bot has the necessary permissions to join and speak in the voice channel.
