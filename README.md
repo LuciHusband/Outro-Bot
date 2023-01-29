@@ -19,6 +19,22 @@ This bot requires the following python packages:
 Make sure to install these packages before running the bot by running `pip install -r requirements.txt`
 ## Note
 
+To run this bot, you will need to have FFmpeg installed on your system. You can download a pre-built version from the official website https://ffmpeg.org/download.html, then add it to your system's PATH environment variable so that the code can find it.
+
+On Windows:
+
+1. Open the Start menu and search for "Environment Variables".
+2. Click "Edit the system environment variables".
+3. Under "System Variables", find the "Path" variable and click the "Edit" button.
+4. Click the "New" button and enter the path to the FFmpeg executable (e.g. C:\ffmpeg\bin).
+5. Click "OK" to close all open dialogs.
+
+On Linux and MacOS:
+
+1. Open the terminal and use the export command to add FFmpeg path into PATH variable by running `export PATH=$PATH:/path/to/ffmpeg`.
+2. Put this command in your shell profile file (such as `~/.bash_profile` or `~/.bashrc`) to make it persistent across reboots.
+
+Please make sure to add the path to the environment variables before running the bot.
 Additionally, in order for the bot to join and speak in voice channels, you will need to enable Privileged Gateway Intents for your bot in the Discord Developer Portal, [here is a guide](https://discordpy.readthedocs.io/en/stable/intents.html#privileged-intents).
 ## Troubleshooting
 
